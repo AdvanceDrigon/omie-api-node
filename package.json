@@ -1,0 +1,52 @@
+{
+  "name": "@zerezes/omie-api-node",
+  "version": "0.1.0",
+  "description": "Omie API wrapper for Node.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "resources",
+    "index.js"
+  ],
+  "dependencies": {
+    "got": "^11.1.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.9",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.2",
+    "mocha": "^7.0.1",
+    "nock": "^12.0.2",
+    "nyc": "^15.0.0",
+    "prettier": "^2.0.2"
+  },
+  "scripts": {
+    "test": "npm run lint && nyc --reporter=html --reporter=text mocha",
+    "watch": "mocha -w",
+    "lint": "eslint --ignore-path .gitignore && prettier --check --ignore-path .gitignore \"**/*.{json,ts,yaml,yml}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zerezes/omie-api-node.git"
+  },
+  "keywords": [
+    "Omie",
+    "API",
+    "Client"
+  ],
+  "author": "gui gui <guirams@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zerezes/omie-api-node/issues"
+  },
+  "homepage": "https://github.com/zerezes/omie-api-node"
+}

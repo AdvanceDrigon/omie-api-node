@@ -1,0 +1,760 @@
+{
+  "geral": {
+    "clientetag": {
+      "callMethods": [
+        "ExcluirTags",
+        "ExcluirTodas",
+        "IncluirTags",
+        "ListarTags"
+      ],
+      "key": "clientetag",
+      "endpoint": "geral/clientetag"
+    },
+    "clientes": {
+      "callMethods": [
+        "AlterarCliente",
+        "AssociarCodIntCliente",
+        "ConsultarCliente",
+        "ExcluirCliente",
+        "IncluirCliente",
+        "IncluirClientesPorLote",
+        "ListarClientes",
+        "ListarClientesResumido",
+        "UpsertCliente",
+        "UpsertClientesPorLote"
+      ],
+      "key": "clientes",
+      "endpoint": "geral/clientes"
+    },
+    "projetos": {
+      "callMethods": [
+        "AlterarProjeto",
+        "ConsultarProjeto",
+        "ExcluirProjeto",
+        "IncluirProjeto",
+        "ListarProjetos",
+        "UpsertProjeto"
+      ],
+      "key": "projetos",
+      "endpoint": "geral/projetos"
+    },
+    "empresas": {
+      "callMethods": ["ConsultarEmpresa", "ListarEmpresas"],
+      "key": "empresas",
+      "endpoint": "geral/empresas"
+    },
+    "departamentos": {
+      "callMethods": [
+        "ConsultarDepartamento",
+        "ListarDepartamentos",
+        "ListarDepatartamentos"
+      ],
+      "key": "departamentos",
+      "endpoint": "geral/departamentos"
+    },
+    "categorias": {
+      "callMethods": ["ConsultarCategoria", "ListarCategorias"],
+      "key": "categorias",
+      "endpoint": "geral/categorias"
+    },
+    "parcelas": {
+      "callMethods": ["ListarParcelas"],
+      "key": "parcelas",
+      "endpoint": "geral/parcelas"
+    },
+    "tpativ": {
+      "callMethods": ["ListarTipoAtiv"],
+      "key": "tpativ",
+      "endpoint": "geral/tpativ"
+    },
+    "cidades": {
+      "callMethods": ["PesquisarCidades"],
+      "key": "cidades",
+      "endpoint": "geral/cidades"
+    },
+    "paises": {
+      "callMethods": ["ListarPaises"],
+      "key": "paises",
+      "endpoint": "geral/paises"
+    },
+    "contacorrente": {
+      "callMethods": [
+        "AlterarContaCorrente",
+        "ConsultarContaCorrente",
+        "ExcluirContaCorrente",
+        "IncluirContaCorrente",
+        "ListarContasCorrentes",
+        "ListarResumoContasCorrentes",
+        "PesquisarContaCorrente",
+        "UpsertContaCorrente",
+        "UpsertContaCorrentePorLote"
+      ],
+      "key": "contacorrente",
+      "endpoint": "geral/contacorrente"
+    },
+    "bancos": {
+      "callMethods": ["ConsultarBanco", "ListarBancos"],
+      "key": "bancos",
+      "endpoint": "geral/bancos"
+    },
+    "tiposdoc": {
+      "callMethods": ["ConsultarTipoDocumento", "PesquisarTipoDocumento"],
+      "key": "tiposdoc",
+      "endpoint": "geral/tiposdoc"
+    },
+    "tipocc": {
+      "callMethods": ["ListarTiposCC"],
+      "key": "tipocc",
+      "endpoint": "geral/tipocc"
+    },
+    "dre": {
+      "callMethods": ["ListarCadastroDRE"],
+      "key": "dre",
+      "endpoint": "geral/dre"
+    },
+    "produtos": {
+      "callMethods": [
+        "AlterarProduto",
+        "AssociarCodIntProduto",
+        "ConsultarProduto",
+        "ExcluirProduto",
+        "IncluirProduto",
+        "IncluirProdutosPorLote",
+        "ListarProdutos",
+        "ListarProdutosResumido",
+        "UpsertProduto",
+        "UpsertProdutosPorLote"
+      ],
+      "key": "produtos",
+      "endpoint": "geral/produtos"
+    },
+    "prodcaract": {
+      "callMethods": [
+        "AlterarCaractProduto",
+        "ConsultarCaractProduto",
+        "ExcluirCaractProduto",
+        "IncluirCaractProduto",
+        "ListarCaractProduto"
+      ],
+      "key": "prodcaract",
+      "endpoint": "geral/prodcaract"
+    },
+    "malha": {
+      "callMethods": [
+        "AlterarEstrutura",
+        "ConsultarEstrutura",
+        "ExcluirEstrutura",
+        "IncluirEstrutura",
+        "ListarEstruturas"
+      ],
+      "key": "malha",
+      "endpoint": "geral/malha"
+    },
+    "familias": {
+      "callMethods": [
+        "AlterarFamilia",
+        "ConsultarFamilia",
+        "ExcluirFamilia",
+        "IncluirFamilia",
+        "PesquisarFamilias",
+        "UpsertFamilia"
+      ],
+      "key": "familias",
+      "endpoint": "geral/familias"
+    },
+    "unidade": {
+      "callMethods": ["ListarUnidades"],
+      "key": "unidade",
+      "endpoint": "geral/unidade"
+    },
+    "cenarios": {
+      "callMethods": ["ListarCenarios", "ListarImpostosCenario"],
+      "key": "cenarios",
+      "endpoint": "geral/cenarios"
+    },
+    "vendedores": {
+      "callMethods": [
+        "AlterarVendedor",
+        "ConsultarVendedor",
+        "ExcluirVendedor",
+        "IncluirVendedor",
+        "ListarVendedores",
+        "UpsertVendedor"
+      ],
+      "key": "vendedores",
+      "endpoint": "geral/vendedores"
+    },
+    "caracteristicas": {
+      "callMethods": [
+        "AlterarCaracteristica",
+        "ConsultarCaracteristica",
+        "ExcluirCaracteristica",
+        "IncluirCaracteristica",
+        "ListarCaracteristicas"
+      ],
+      "key": "caracteristicas",
+      "endpoint": "geral/caracteristicas"
+    },
+    "meiospagamento": {
+      "callMethods": ["ListarMeiosPagamento"],
+      "key": "meiospagamento",
+      "endpoint": "geral/meiospagamento"
+    }
+  },
+  "produtos": {
+    "cnae": {
+      "callMethods": ["ListarCNAE"],
+      "key": "cnae",
+      "endpoint": "produtos/cnae"
+    },
+    "requisicaocompra": {
+      "callMethods": [
+        "AlterarReq",
+        "ConsultarReq",
+        "ExcluirReq",
+        "IncluirReq",
+        "PesquisarReq",
+        "UpsertReq"
+      ],
+      "key": "requisicaocompra",
+      "endpoint": "produtos/requisicaocompra"
+    },
+    "pedidocompra": {
+      "callMethods": [
+        "AlteraPedCompra",
+        "ConsultarPedCompra",
+        "ExcluirPedCompra",
+        "IncluirPedCompra",
+        "PesquisarPedCompra",
+        "UpsertPedCompra"
+      ],
+      "key": "pedidocompra",
+      "endpoint": "produtos/pedidocompra"
+    },
+    "op": {
+      "callMethods": [
+        "AlterarOrdemProducao",
+        "ConcluirOrdemProducao",
+        "ConsultarOrdemProducao",
+        "ExcluirOrdemProducao",
+        "IncluirOrdemProducao",
+        "ListarOrdemProducao",
+        "ReverterOrdemProducao",
+        "UpsertOrdemProducao"
+      ],
+      "key": "op",
+      "endpoint": "produtos/op"
+    },
+    "formaspagcompras": {
+      "callMethods": ["ListarFormasPagCompras"],
+      "key": "formaspagcompras",
+      "endpoint": "produtos/formaspagcompras"
+    },
+    "ncm": {
+      "callMethods": ["ConsultarNCM", "ListarNCM"],
+      "key": "ncm",
+      "endpoint": "produtos/ncm"
+    },
+    "cfop": {
+      "callMethods": ["ListarCFOP"],
+      "key": "cfop",
+      "endpoint": "produtos/cfop"
+    },
+    "icmscst": {
+      "callMethods": ["ListarCST"],
+      "key": "icmscst",
+      "endpoint": "produtos/icmscst"
+    },
+    "icmscsosn": {
+      "callMethods": ["ListarCSOSN"],
+      "key": "icmscsosn",
+      "endpoint": "produtos/icmscsosn"
+    },
+    "icmsorigem": {
+      "callMethods": ["ListarOrigMerc"],
+      "key": "icmsorigem",
+      "endpoint": "produtos/icmsorigem"
+    },
+    "piscst": {
+      "callMethods": ["ListarCstPis"],
+      "key": "piscst",
+      "endpoint": "produtos/piscst"
+    },
+    "cofinscst": {
+      "callMethods": ["ListarCstCofins"],
+      "key": "cofinscst",
+      "endpoint": "produtos/cofinscst"
+    },
+    "ipicst": {
+      "callMethods": ["ListarCstIpi"],
+      "key": "ipicst",
+      "endpoint": "produtos/ipicst"
+    },
+    "ipienq": {
+      "callMethods": ["ListarEnqIpi"],
+      "key": "ipienq",
+      "endpoint": "produtos/ipienq"
+    },
+    "tpcalc": {
+      "callMethods": ["ListarTpCalc"],
+      "key": "tpcalc",
+      "endpoint": "produtos/tpcalc"
+    },
+    "cest": {
+      "callMethods": ["ListarCEST"],
+      "key": "cest",
+      "endpoint": "produtos/cest"
+    },
+    "pedido": {
+      "callMethods": [
+        "AlterarPedidoVenda",
+        "ConsultarPedido",
+        "IncluirPedido",
+        "ListarPedidos",
+        "StatusPedido",
+        "TrocarEtapaPedido"
+      ],
+      "key": "pedido",
+      "endpoint": "produtos/pedido"
+    },
+    "pedidovendaanexos": {
+      "callMethods": [
+        "pvaConsultarAnexo",
+        "pvaExcluirAnexo",
+        "pvaIncluirAnexo",
+        "pvaListarAnexos",
+        "pvaObterAnexo"
+      ],
+      "key": "pedidovendaanexos",
+      "endpoint": "produtos/pedidovendaanexos"
+    },
+    "pedidovendafat": {
+      "callMethods": [
+        "AssociarCodIntPedidoVenda",
+        "CancelarPedidoVenda",
+        "DuplicarPedidoVenda",
+        "FaturarPedidoVenda",
+        "ValidarPedidoVenda"
+      ],
+      "key": "pedidovendafat",
+      "endpoint": "produtos/pedidovendafat"
+    },
+    "pedidoetapas": {
+      "callMethods": ["ListarEtapasPedido"],
+      "key": "pedidoetapas",
+      "endpoint": "produtos/pedidoetapas"
+    },
+    "cte": {
+      "callMethods": [
+        "AverbacaoCTe",
+        "CancelarCTe",
+        "CartaCorrecaoCTe",
+        "ExcluirFaturaCTe",
+        "FaturarCTe",
+        "ImportarCTe",
+        "ListarNFeTransp"
+      ],
+      "key": "cte",
+      "endpoint": "produtos/cte"
+    },
+    "remessa": {
+      "callMethods": [
+        "AlterarRemessa",
+        "ConsultarRemessa",
+        "IncluirRemessa",
+        "ListarRemessas",
+        "StatusRemessa"
+      ],
+      "key": "remessa",
+      "endpoint": "produtos/remessa"
+    },
+    "cupomfiscalincluir": {
+      "callMethods": [
+        "FecharCaixa",
+        "IncluirCfeSat",
+        "IncluirCupom",
+        "IncluirNfce",
+        "InutilizarNfce"
+      ],
+      "key": "cupomfiscalincluir",
+      "endpoint": "produtos/cupomfiscalincluir"
+    },
+    "cupomfiscal": {
+      "callMethods": [
+        "CancelarCupom",
+        "CancelarNFCE",
+        "CancelarSAT",
+        "ExcluirCupom",
+        "ExcluirCuponsPorNumero",
+        "ExcluirLote",
+        "ListarCupons",
+        "ObterProximoLote"
+      ],
+      "key": "cupomfiscal",
+      "endpoint": "produtos/cupomfiscal"
+    },
+    "formaspagvendas": {
+      "callMethods": ["ListarFormasPagVendas"],
+      "key": "formaspagvendas",
+      "endpoint": "produtos/formaspagvendas"
+    },
+    "tabelaprecos": {
+      "callMethods": [
+        "AlterarTabelaPreco",
+        "AtivarTabelaPreco",
+        "AtualizarProdutos",
+        "ConsultarTabelaPreco",
+        "ExcluirTabelaPreco",
+        "IncluirTabelaPreco",
+        "ListarTabelaItens",
+        "ListarTabelasPreco",
+        "SuspenderTabelaPreco"
+      ],
+      "key": "tabelaprecos",
+      "endpoint": "produtos/tabelaprecos"
+    },
+    "etapafat": {
+      "callMethods": ["ListarEtapasFaturamento"],
+      "key": "etapafat",
+      "endpoint": "produtos/etapafat"
+    },
+    "nfconsultar": {
+      "callMethods": ["ConsultarNF", "ListarNF"],
+      "key": "nfconsultar",
+      "endpoint": "produtos/nfconsultar"
+    },
+    "notafiscalutil": {
+      "callMethods": [
+        "GetUrlDanfe",
+        "GetUrlLogo",
+        "GetUrlNotaFiscal",
+        "GetVersion"
+      ],
+      "key": "notafiscalutil",
+      "endpoint": "produtos/notafiscalutil"
+    }
+  },
+  "crm": {
+    "contas": {
+      "callMethods": [
+        "AlterarConta",
+        "ConsultarConta",
+        "ExcluirConta",
+        "IncluirConta",
+        "ListarContas",
+        "UpsertConta",
+        "VerificarConta"
+      ],
+      "key": "contas",
+      "endpoint": "crm/contas"
+    },
+    "contatos": {
+      "callMethods": [
+        "AlterarContato",
+        "ConsultarContato",
+        "ExcluirContato",
+        "IncluirContato",
+        "ListarContatos",
+        "UpsertContato",
+        "VerificarContato"
+      ],
+      "key": "contatos",
+      "endpoint": "crm/contatos"
+    },
+    "oportunidades": {
+      "callMethods": [
+        "AlterarOportunidade",
+        "ConsultarOportunidade",
+        "ExcluirOportunidade",
+        "IncluirOportunidade",
+        "ListarOportunidades",
+        "UpsertOportunidade"
+      ],
+      "key": "oportunidades",
+      "endpoint": "crm/oportunidades"
+    },
+    "tarefas": {
+      "callMethods": [
+        "AlterarTarefa",
+        "CalendarioTarefas",
+        "ConsultarTarefa",
+        "ExcluirTarefa",
+        "IncluirTarefa",
+        "ListarEmailsTarefas",
+        "ListarTarefas",
+        "UpsertTarefa"
+      ],
+      "key": "tarefas",
+      "endpoint": "crm/tarefas"
+    },
+    "solucoes": {
+      "callMethods": ["ListarSolucoes"],
+      "key": "solucoes",
+      "endpoint": "crm/solucoes"
+    },
+    "fases": {
+      "callMethods": ["ListarFases"],
+      "key": "fases",
+      "endpoint": "crm/fases"
+    },
+    "usuarios": {
+      "callMethods": ["ListarUsuarios"],
+      "key": "usuarios",
+      "endpoint": "crm/usuarios"
+    },
+    "status": {
+      "callMethods": ["ListarStatus"],
+      "key": "status",
+      "endpoint": "crm/status"
+    },
+    "motivos": {
+      "callMethods": ["ListarMotivos"],
+      "key": "motivos",
+      "endpoint": "crm/motivos"
+    },
+    "tipos": {
+      "callMethods": ["ListarTipos"],
+      "key": "tipos",
+      "endpoint": "crm/tipos"
+    },
+    "parceiros": {
+      "callMethods": ["ListarParceiros"],
+      "key": "parceiros",
+      "endpoint": "crm/parceiros"
+    },
+    "finders": {
+      "callMethods": ["ListarFinders"],
+      "key": "finders",
+      "endpoint": "crm/finders"
+    },
+    "origens": {
+      "callMethods": ["ListarOrigens"],
+      "key": "origens",
+      "endpoint": "crm/origens"
+    },
+    "concorrentes": {
+      "callMethods": ["ListarConcorrentes"],
+      "key": "concorrentes",
+      "endpoint": "crm/concorrentes"
+    },
+    "verticais": {
+      "callMethods": ["ListarVerticais"],
+      "key": "verticais",
+      "endpoint": "crm/verticais"
+    }
+  },
+  "financas": {
+    "contapagar": {
+      "callMethods": [
+        "AlterarContaPagar",
+        "CancelarPagamento",
+        "ConsultarContaPagar",
+        "ExcluirContaPagar",
+        "IncluirContaPagar",
+        "IncluirContaPagarPorLote",
+        "LancarPagamento",
+        "ListarContasPagar",
+        "UpsertContaPagar",
+        "UpsertContaPagarPorLote"
+      ],
+      "key": "contapagar",
+      "endpoint": "financas/contapagar"
+    },
+    "contareceber": {
+      "callMethods": [
+        "AlterarContaReceber",
+        "AlterarDistribuicaoDepartamento",
+        "CancelarRecebimento",
+        "ConciliarRecebimento",
+        "ConsultarContaReceber",
+        "DesconciliarRecebimento",
+        "ExcluirContaReceber",
+        "ExcluirDistribuicaoDepartamento",
+        "IncluirContaReceber",
+        "IncluirContaReceberPorLote",
+        "IncluirDistribuicaoDepartamento",
+        "LancarRecebimento",
+        "ListarContasReceber",
+        "UpsertContaReceber",
+        "UpsertContaReceberPorLote"
+      ],
+      "key": "contareceber",
+      "endpoint": "financas/contareceber"
+    },
+    "contacorrentelancamentos": {
+      "callMethods": [
+        "AlterarLancCC",
+        "ConsultaLancCC",
+        "ExcluirLancCC",
+        "IncluirLancCC",
+        "ListarLancCC"
+      ],
+      "key": "contacorrentelancamentos",
+      "endpoint": "financas/contacorrentelancamentos"
+    },
+    "extrato": {
+      "callMethods": ["ListarExtrato"],
+      "key": "extrato",
+      "endpoint": "financas/extrato"
+    },
+    "caixa": {
+      "callMethods": ["ListarOrcamentos"],
+      "key": "caixa",
+      "endpoint": "financas/caixa"
+    },
+    "pesquisartitulos": {
+      "callMethods": [
+        "ObterURLBoleto",
+        "PesquisarExcluidos",
+        "PesquisarLancamentos"
+      ],
+      "key": "pesquisartitulos",
+      "endpoint": "financas/pesquisartitulos"
+    },
+    "mf": {
+      "callMethods": ["ListarMovimentos"],
+      "key": "mf",
+      "endpoint": "financas/mf"
+    },
+    "contapagaranexos": {
+      "callMethods": [
+        "lcpConsultarAnexo",
+        "lcpExcluirAnexo",
+        "lcpIncluirAnexo",
+        "lcpListarAnexos",
+        "lcpObterAnexo"
+      ],
+      "key": "contapagaranexos",
+      "endpoint": "financas/contapagaranexos"
+    },
+    "contareceberanexos": {
+      "callMethods": [
+        "lcrConsultarAnexo",
+        "lcrExcluirAnexo",
+        "lcrIncluirAnexo",
+        "lcrListarAnexos",
+        "lcrObterAnexo"
+      ],
+      "key": "contareceberanexos",
+      "endpoint": "financas/contareceberanexos"
+    }
+  },
+  "estoque": {
+    "comprador": {
+      "callMethods": ["ListarCompradores"],
+      "key": "comprador",
+      "endpoint": "estoque/comprador"
+    },
+    "produtofornecedor": {
+      "callMethods": ["ListarProdutoFornecedor"],
+      "key": "produtofornecedor",
+      "endpoint": "estoque/produtofornecedor"
+    },
+    "ajuste": {
+      "callMethods": ["ExcluirAjusteEstoque", "IncluirAjusteEstoque"],
+      "key": "ajuste",
+      "endpoint": "estoque/ajuste"
+    },
+    "consulta": {
+      "callMethods": ["ListarPosEstoque", "MovimentoEstoque", "PosicaoEstoque"],
+      "key": "consulta",
+      "endpoint": "estoque/consulta"
+    },
+    "movestoque": {
+      "callMethods": ["ConsultarPrevisao", "ListarMovimentos"],
+      "key": "movestoque",
+      "endpoint": "estoque/movestoque"
+    }
+  },
+  "servicos": {
+    "servico": {
+      "callMethods": [
+        "AlterarCadastroServico",
+        "AssociarCodIntServico",
+        "ConsultarCadastroServico",
+        "ExcluirCadastroServico",
+        "IncluirCadastroServico",
+        "ListarCadastroServico",
+        "UpsertCadastroServico"
+      ],
+      "key": "servico",
+      "endpoint": "servicos/servico"
+    },
+    "osp": {
+      "callMethods": [
+        "AssociarCodIntOS",
+        "CancelarOS",
+        "DuplicarOS",
+        "FaturarOS",
+        "ValidarOS"
+      ],
+      "key": "osp",
+      "endpoint": "servicos/osp"
+    },
+    "os": {
+      "callMethods": [
+        "ConsultarOS",
+        "IncluirOS",
+        "ListarOS",
+        "StatusOS",
+        "TrocarEtapaOS"
+      ],
+      "key": "os",
+      "endpoint": "servicos/os"
+    },
+    "nfse": {
+      "callMethods": ["ListarNFSEs"],
+      "key": "nfse",
+      "endpoint": "servicos/nfse"
+    },
+    "listaservico": {
+      "callMethods": ["ListarServMunic"],
+      "key": "listaservico",
+      "endpoint": "servicos/listaservico"
+    },
+    "contrato": {
+      "callMethods": [
+        "AlterarContrato",
+        "ConsultarContrato",
+        "ExcluirItem",
+        "IncluirContrato",
+        "ListarContratos",
+        "UpsertContrato"
+      ],
+      "key": "contrato",
+      "endpoint": "servicos/contrato"
+    },
+    "tipotrib": {
+      "callMethods": ["ListarTiposTrib"],
+      "key": "tipotrib",
+      "endpoint": "servicos/tipotrib"
+    },
+    "lc116": {
+      "callMethods": ["ListarLC116"],
+      "key": "lc116",
+      "endpoint": "servicos/lc116"
+    },
+    "nbs": {
+      "callMethods": ["ListarNBS"],
+      "key": "nbs",
+      "endpoint": "servicos/nbs"
+    },
+    "ibpt": {
+      "callMethods": ["ListarProdutosIBPT", "ListarServicosIBPT"],
+      "key": "ibpt",
+      "endpoint": "servicos/ibpt"
+    },
+    "contratotpfat": {
+      "callMethods": ["ListarTipoFatContrato"],
+      "key": "contratotpfat",
+      "endpoint": "servicos/contratotpfat"
+    }
+  },
+  "contador": {
+    "xml": {
+      "callMethods": ["ListarDocumentos"],
+      "key": "xml",
+      "endpoint": "contador/xml"
+    }
+  }
+}
