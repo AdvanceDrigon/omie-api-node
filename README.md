@@ -6,6 +6,13 @@ promises.
 
 ## How to use
 
+Install it with yarn or npm
+
+```sh
+npm install @zerezes/omie-api-node
+yarn add @zerezes/omie-api-node
+```
+
 Instantiate the Omie class with your appKey and appSecret
 
 ```js
